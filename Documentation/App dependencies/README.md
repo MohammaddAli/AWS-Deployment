@@ -1,6 +1,6 @@
 # Udagram Application Dependencies
-## I used Udagram project to be deployed on AWS cloud using AWS servises and CircleCi pipline for automation.
-### The project mainly uses Node js , Angular for frontend, Express for server side and backend , and here is the dependencies from the backage.json :-
+## I used Udagram project to be deployed on AWS cloud by using AWS servises and CircleCi pipline for ci/cd automation.
+### The project mainly uses Node js , Angular for frontend, Express for server side and backend , and here is the project dependencies from the backage.json :-
 
 ### Backend :
 "dependencies": {
