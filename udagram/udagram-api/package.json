@@ -14,7 +14,7 @@
     "clean": "rm -rf www/ || true",
     "deploy": "chmod +x bin/deploy.sh && bin/deploy.sh",
     "build": "chmod +x bin/build.sh && bin/build.sh",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\""
   },
   "keywords": [],
   "author": "Gabriel Ruttner",
