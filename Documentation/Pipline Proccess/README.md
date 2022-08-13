@@ -3,7 +3,7 @@
 > - The configuration files are updated to set the environment variables to the project code in the central configuration file is used make the environment variables available to the code. it's in udagram-api/scr/config/config.ts.
 > - I added all the scripts inside the package.json file. i added the scripts for for running: installation , building, testing and deployment for both the frontend and the api to automate all the steps and a project-level package.json file in the project root folder. 
 Any new dependencies is located in the devDependencies section of the package.json.
-> - i added the screenshots for all the aws resources and environments and a screenshot of the last build shows that my CircleCi account is authorized to access my repo on Github and is detecting changes each time i am pushing to the main branch.
+> - i added the screenshots for all the aws resources and environments and a screenshot of the last build shows that my CircleCi account is authorized to access my repo on Github and is detecting changes each time i am adding , committing and pushing to the main branch.
 > i linked the project in github to circleci and added the config.yml file in the circleci containing all the orbs and jobs for runnung the environments configurations and packages.
 > - All the secrets found in the application are configured inside CircleCi and passed to the production application, A screenshot of the configuration screen is present to show where secrets were added.
 > - for accessing the application please use this URL `http://udagram-frontend1.s3-website-us-east-1.amazonaws.com/`.
