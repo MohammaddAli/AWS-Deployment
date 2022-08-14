@@ -23,5 +23,5 @@ Any new dependencies is located in the devDependencies section of the package.js
 > `https://app.circleci.com/pipelines/github/MohammaddAli/AWS-Deployment`
 
 
-## All the screenshots for the EB (API) and the S3 (Front-End) and the RDS (DB) and CircleCi (CI/CD Pipline) are added to the zip file and to the corresponding directories.
-## I also added the architicture diagram inside the infrastructure folder and the CircleCI Pipline diagram inside the pipline procces folder, showing all the relationships and the communication between the different services.
+### All the screenshots for the EB (API) and the S3 (Front-End) and the RDS (DB) and CircleCi (CI/CD Pipline) are added to the zip file and to the corresponding directories.
+### I also added the architicture diagram inside the infrastructure folder and the CircleCI Pipline diagram inside the pipline procces folder, showing all the relationships and the communication between the different services.
