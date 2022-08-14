@@ -19,7 +19,7 @@ Any new dependencies is located in the devDependencies section of the package.js
 > - First i added all the commands needed for deploying the application as scripts in package.json files in the udagram-frontend folder and the udagram-api then called these scripts inside the package.json file in the root of application folder.
 >  - i added the the Elastic Beanstalk , aws and node in the CircleCi orbs for installing them for the deployment.
 >  - i added the jobs inside the CircleCi config.yml file for deploying the frontend and backend just by calling the deploy script added to the main package.json file in the root directory wich correspondingly calls the deploy command added to the backage.json file of both the udagram-frontend file and the udagram-api file.
-> - > i linked my github application to circleci and specified the branch of interest which is the main branch to circleci is only trigged if the code pushed to the main branch.
+> - i linked my github application to circleci and specified the branch of interest which is the main branch here to circleci is trigged everytime the code pushed to the main branch.
 > `https://app.circleci.com/pipelines/github/MohammaddAli/AWS-Deployment`
 
 
