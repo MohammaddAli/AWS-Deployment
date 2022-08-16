@@ -48,6 +48,15 @@ jobs:
           name: Deploy App
           command: |
             npm run deploy
+      - run:
+          name: Deploy App
+           command: |
+             npm run api:start
+      - run:
+          name: Deploy App
+           command: |
+             npm run frontend:start
+            
 workflows:
   udagram:
     jobs:
