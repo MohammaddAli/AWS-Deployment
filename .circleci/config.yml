@@ -43,11 +43,6 @@ jobs:
           name: API Test
           command: |
             npm run api:test
-      # deploy step will run only after manual approval
-      - run:
-          name: Deploy App
-          command: |
-            npm run deploy
       - run:
           name: Deploy App
           command: |
@@ -56,6 +51,11 @@ jobs:
           name: Deploy App
           command: |
             npm run frontend:start
+      # deploy step will run only after manual approval
+      - run:
+          name: Deploy App
+          command: |
+            npm run deploy
 
 workflows:
   udagram:
