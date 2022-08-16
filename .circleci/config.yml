@@ -11,7 +11,7 @@ jobs:
       # the base image can run most needed actions with orbs
       - image: "cimg/node:14.15"
     steps:
-      # install node and checkout code 
+      # install node and checkout code
       # setup needed for aws, node, elastic beanstalk
       - node/install:
           node-version: "14.15"
@@ -43,17 +43,20 @@ jobs:
           name: API Test
           command: |
             npm run api:test
-  # deploy step will run only after manual approval
+      # deploy step will run only after manual approval
       - run:
           name: Deploy App
           command: |
             npm run deploy
       - run:
           name: Deploy App
-           command: |
-             npm run api:start
-     
-            
+          command: |
+            npm run api:start
+      - run:
+          name: Deploy App
+          command: |
+            npm run frontend:start
+
 workflows:
   udagram:
     jobs:
