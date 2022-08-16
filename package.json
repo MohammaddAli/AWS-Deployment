@@ -12,7 +12,7 @@
         "api:test": "cd udagram/udagram-api && npm run test",
         "api:deploy": "cd udagram/udagram-api && npm run deploy",
         "deploy": "npm run api:deploy && npm run frontend:deploy",
-        "api:start": "cd udagram/udagram-api && npm start"
+        "api:start": "cd udagram/udagram-api && npm run start"
 
     }
 }
