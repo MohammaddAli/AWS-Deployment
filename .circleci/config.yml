@@ -43,14 +43,6 @@ jobs:
           name: API Test
           command: |
             npm run api:test
-      - run:
-          name: start App
-          command: |
-            npm run api:start
-      - run:
-          name: start App
-          command: |
-            npm run frontend:start
       # deploy step will run only after manual approval
       - run:
           name: Deploy App
