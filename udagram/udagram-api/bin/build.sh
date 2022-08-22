@@ -1,1 +1,1 @@
-npm install . && npm run clean && tsc && cp -rf src/config www/config && cp .npmrc www/.npmrc && cp package.json www/package.json && cp -R .elasticbeanstalk www/.elasticbeanstalk  && cd www && zip -r Archive.zip . && cd ..
+npm install . && npm run clean && tsc && cp -rf src/config www/config && cp .npmrc www/.npmrc && cp package.json www/package.json && cp -R .elasticbeanstalk www/.elasticbeanstalk && cd www && zip -r Archive.zip . && cd ..
